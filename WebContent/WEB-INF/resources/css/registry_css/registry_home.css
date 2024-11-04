@@ -1,0 +1,107 @@
+    @font-face { font-family: 'Allura-Regular'; src: url('resources/sitefonts/Allura-Regular.ttf') format('truetype'); }
+	.reg_home_logo_text_disply { font: 1.3em Allura-Regular; text-align: center; letter-spacing: 0px; color: black; text-transform: capitalize; margin-left: -16px; }
+	.reg_home_logo_rb_text_disply { font: 4.0em Allura-Regular; text-align: center; letter-spacing: 0px; color: black; text-transform: capitalize; margin-left: -16px; }
+	.reg_home_reg_ben_text_dsp { font: 2.2em Georgia; letter-spacing: 2px; color: black; }
+	.reg_home_reg_ben_big_text_dsp { font: bold 2.2em Georgia; letter-spacing: 2px; color: black; }
+	.reg_home_reg_ben_big_first_text_dsp { font: bold 1.32em Georgia; color: black; }
+	.bott_first_big_letter_dsp { font: 1.15em Georgia; letter-spacing: 2px; color: black; }
+	
+	.reg_home_bott_hd_smltxt_dsp { font: 1.21em/1.4em Georgia; letter-spacing: 2px; color: black; }
+	.reg_home_bott_hd_bgtxt_dsp { font: 1.5em/1.4em Georgia; letter-spacing: 2px; color: black; }
+	.reg_home_mid_smltx_dsp { font: 800 1.25em/1.3em Georgia; letter-spacing: 2px; color: black; }
+	.reg_home_mid_btx_dsp { font: 1.45em/1.3em Georgia; }
+		
+	.reg_home_top_img_big_txt_dsp { font: bold italic 2em Georgia, Times, "Times New Roman", serif; text-align: center; letter-spacing: 3px; color: black; }
+	.reg_home_top_img_txt_dsp { font: bold italic 1.25em Georgia, Times, "Times New Roman", serif; text-align: center; letter-spacing: 3px; color: black; }
+	.reg_home_top_img_defmid_txt_dsp { font: 5.2em Allura-Regular; text-align: center; letter-spacing: 0px; color: black; }
+	.reg_home_top_sh_mid_txt_dsp { font: bold 1.8em/1.5em Georgia; letter-spacing: 1px; color: black; }
+	.regi_home_top_bwsm_text_display { font: 0.85em/1.5em Georgia; letter-spacing: 1px; color: black; text-transform: uppercase; }
+	.regi_home_top_bwfl_text_display { font: 1.2em/1.5em Georgia; letter-spacing: 1px; color: black; text-transform: uppercase; }
+	a.reg_top_small_img_text_dsp { font: 0.9em/2em Georgia; letter-spacing: 1px; color: black; text-decoration: underline; margin-left: 10px; }
+	a.reg_top_small_img_text_dsp:hover { color: red; text-decoration: underline; }
+	a.reg_learn_more_text_dsp { font: 0.95em/1.25em Georgia; letter-spacing: 1px; color: black; text-decoration: underline; margin-left: 10px; }
+	a.reg_learn_more_text_dsp:hover { color: red; text-decoration: underline; }
+	.reg_home_bluecol_mid_sub_button { display: block; margin: 0px auto; vertical-align: middle; background-color: #ff3b3b; color: white; display: inline-block; text-transform: uppercase; padding: 0.6em 1.5em; outline: none; border: none; font: 500 1em/1.25em Georgia; letter-spacing: 2px;	background-position: 50% 50%; background-repeat:no-repeat; box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22); -webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22); -moz-box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22); width: 270px; }
+	.reg_home_bluecol_mid_sub_button:hover { background-color: #494949; color: white }
+	.reg_bot_text_adj_dsp h1{ color: #2c2c2c; line-height: 1.8em; font-size: 1.5em; letter-spacing: 4px; margin-bottom: 40px; }	
+	
+	.design_home_top_img_big_txt_dsp h1 { font: bold 2em/1.5em Georgia; text-align: left; letter-spacing: 2px; color: black; text-transform: uppercase; }
+	.design_home_top_img_sml_text_dsp h3 { font: 1em/1.5em Georgia; text-align: center; letter-spacing: 2px; color: black; text-transform: uppercase; margin-top: 15px; }		
+	.registry_home_top_image_big_text h1 { font: bold 2em/1.5em Georgia; text-align: left; letter-spacing: 2px; color: black; text-transform: uppercase; }
+	.registry_home_top_image_small_text h3 { font: italic 1em/1.5em Georgia; text-align: left; letter-spacing: 2px; color: black; text-transform: uppercase; margin-top: 10px; }
+	
+	a.reg_home_learn_more_itext_dsp { font: italic 0.95em/1.25em Georgia; letter-spacing: 1px; color: black; text-decoration: underline; }
+	a.reg_home_learn_more_itext_dsp:hover { color: red; text-decoration: underline; }
+	
+	a.reg_home_learn_more_ntext_dsp { font: 0.95em/1.25em Georgia; letter-spacing: 1px; color: black; text-decoration: underline; }
+	a.reg_home_learn_more_ntext_dsp:hover { color: red; text-decoration: underline; }
+
+/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) {
+	#sec1btn { padding-right:45px; }
+	#sec1bg { width:100%; }
+	#sarrow { margin-left:5%; }
+	#g1 { text-align:justify;padding-left:2%;padding-right:2%; }
+	#g2 { text-align:justify;padding-left:2%;padding-right:2%; }
+	.ftext { margin-top:-20px;padding-left:10px;color:#fff; }
+	.titled { color:#fff; }
+	#lnm { margin-bottom: 5%; }
+	#flnm { padding-top: 1%; }
+	}
+	
+	/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (min-width: 600px) and (max-width: 992px) {
+	#sec1bg { width:100%; }
+	#sec1btn { padding-right:45px;margin-top:2%; }
+	#g1 { padding:10px 110px;text-align:center; }
+	#g2 { padding:10px 110px;text-align:center; margin-bottom: 0px; padding: 10px 100px; }
+	.ftext { margin-top:-20px;padding-left:760px; }
+	#lnm { padding-top: 5%; margin-bottom: 4%; }
+	#flnm { padding-top: 1%; margin-bottom: 4%; }
+	}
+	
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) {
+	#sec1bg { width:100%; }
+	#g1 { padding:10px 110px;text-align:center; }
+	#g2 { padding:10px 110px;text-align:center; margin-bottom: 0px; padding: 10px 100px; }
+	.ftext { margin-top:-20px;padding-left:760px; }
+	#lnm { padding-top: 5%; }
+	#flnm { padding-top: 1%; }
+	.g2 { padding:10px 110px;text-align:center; margin-bottom: 0px; padding: 10px 100px; }
+	}
+	
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) {
+	#sec1bg { width:100%; }
+	#g1 { padding:10px 110px;text-align:center; }
+	#g2 { padding:10px 110px;text-align:center; margin-bottom: 0px; padding: 10px 100px; }
+	.ftext { margin-top:-20px;padding-left:760px; }
+	#lnm { padding-top: 5%; }
+	#flnm { padding-top: 1%; }
+	.g2 { padding:10px 110px;text-align:center; margin-bottom: 0px; padding: 10px 100px; }
+	}
+	
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) and (min-width: 2560px) {
+	#sec1bg { width:100%; }
+	#g1 { padding:10px 110px;text-align:center; }
+	#g2 { padding:10px 110px;text-align:center; margin-bottom: 0px; padding: 10px 100px; }
+	.ftext { margin-top:-20px;padding-left:760px; }
+	#lnm { padding-top: 5%; }
+	#flnm { padding-top: 1%; margin-bottom: 4%; }
+	.g2 { padding:10px 110px;text-align:center; margin-bottom: 0px; padding: 10px 100px; }
+	}
+		
+	.home_shop_hdtxt_fl { font: bold 1.3em/1.20em Georgia; letter-spacing: 1px; }
+	.home_shop_hdtxt_nl { font: bold 1.0em/1.20em Georgia; letter-spacing: 1px; }
+	.home_shop_hdtxt_bfl { font: bold 2.0em/1.20em Georgia; letter-spacing: 1px; }
+	.home_shop_hdtxt_bnl { font: bold 1.4em/1.20em Georgia; letter-spacing: 1px; }
+	.home_shop_smltxt_fl { font: 1.3em/1.25em Georgia; letter-spacing: 1px; }
+	.home_shop_smlxt_nl { font: 0.95em/1.25em Georgia; letter-spacing: 1px; }
+	.home_shop_text_bar_dsp { border-bottom: 1px solid black; width: 300px; margin: 0 auto;}
+	.home_shop_submit_butt { display: block; margin: 0px auto; vertical-align: middle; background-color: #ff3b3b; color: white; display: inline-block; text-transform: uppercase; padding: 0.6em 3em; outline: none; border: none; font: 500 1.0em/1.25em Georgia; letter-spacing: 1px; background-position:50% 50%; background-repeat:no-repeat; height: 100%; -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); }
+	.home_shop_submit_butt:hover { background-color: #2c2c2c; }
+	.reg_shop_smal_img_wh_adj { width: 290px; height: 100%; object-fit: scale-down; position: relative; object-position: 50% 50%; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); margin-top: 30px; }
+	.home_top_smltxt_dsp { font:bold 1.1em/1.25em Georgia; text-transform: lowercase; }
+	

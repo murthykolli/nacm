@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+			
+<!--Registry Pop up Display Pages Tiles-->
+	<definition name="regTilesPopUp" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/00_registry_popup_display_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="" />
+	</definition>
+	
+	<definition name="regTermsPopupDisplayRed" extends="regTilesPopUp">
+		<put-attribute name="title" value="Registry Terms" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/5_registry_terms.jsp" />
+	</definition>
+	
+	<definition name="regPrivacyPolicyPopupDisplay" extends="regTilesPopUp">
+		<put-attribute name="title" value="Registry Privacy Policy" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/6_registry_privacy_policy.jsp" />
+	</definition>
+			
+<!--Registry Home Tiles-->
+	<definition name="registryHomeTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/01_registry_home_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_footer.jsp" />
+	</definition>
+		
+	<definition name="registryHomeRedirection" extends="registryHomeTilesBL">
+		<put-attribute name="title" value="Registry Home - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/1_registry_home.jsp" />
+	</definition>
+	
+	<definition name="registryTermsRedBL" extends="registryHomeTilesBL">
+		<put-attribute name="title" value="Registry Terms - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/5_registry_terms.jsp" />
+	</definition>
+		
+	<definition name="registryPrivacyPolicyRedBL" extends="registryHomeTilesBL">
+		<put-attribute name="title" value="Registry Privacy Policy - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/6_registry_privacy_policy.jsp" />
+	</definition>		
+	
+	<definition name="registryHomeTilesAL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/011_registry_home_al_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_al_footer.jsp" />
+	</definition>
+		
+	<definition name="registryHomeALRedirection" extends="registryHomeTilesAL">
+		<put-attribute name="title" value="Registry Home - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/1_registry_home.jsp" />
+	</definition>
+	
+	<definition name="registryTermsRedAL" extends="registryHomeTilesAL">
+		<put-attribute name="title" value="Registry Terms - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/5_registry_terms.jsp" />
+	</definition>
+		
+	<definition name="registryPrivacyPolicyRedAL" extends="registryHomeTilesAL">
+		<put-attribute name="title" value="Registry Privacy Policy - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/6_registry_privacy_policy.jsp" />
+	</definition>		
+		
+<!--Registry Shop Tiles-->
+	<definition name="registryShopTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/09_registry_shop_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_footer.jsp" />
+	</definition>
+		
+	<definition name="registryShopHome" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Registry Home - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/1_home_shop_concepts_boards.jsp" />
+	</definition>
+		
+	<definition name="shopSelectedConceptBoards" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Selected Concept Boards Rooms - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/2_selected_shop_concept_boards.jsp" />
+	</definition>
+		
+	<definition name="viewShopAllDesignConceptsDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop View All Design Concepts - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/3_shop_view_all_designs_concept.jsp" />
+	</definition>
+		
+	<definition name="shopShoppingCartInfoDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Shopping Cart Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/4_shop_shopping_cart_info_display.jsp" />
+	</definition>
+		
+	<definition name="shopCheckoutBillShippInfoDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Checkout Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/5_shop_checkout_billing_and_shipping_info_display.jsp" />
+	</definition>
+		
+	<definition name="shopReviewAndPlaceOrderDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Review And Place Order Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/6_shop_review_and_place_order_display.jsp" />
+	</definition>
+		
+	<definition name="shopCheckoutPaymentInfoDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Checkout Payment Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/7_shop_checkout_payment_info_display.jsp" />
+	</definition>
+		
+	<definition name="shopPaymentWithCouponInfoDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Checkout Payment With Coupon Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/8_1_shop_coupon_checkout_payment_info_display.jsp" />
+	</definition>
+		
+	<definition name="shopPaymentWithZeroCouponInfoDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Checkout Zero Payment Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/8_2_shop_coupon_zero_payment_info_display.jsp" />
+	</definition>
+		
+	<definition name="shopPaymentSuccessDisplay" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Checkout Payment Success Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/9_shop_checkout_payment_success.jsp" />
+	</definition>
+	
+	<definition name="shopSelectedFinishingTouches" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop Selected Finishing Touches - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/finishing_touches/1_shop_selected_finishing_touches.jsp" />
+	</definition>
+	
+	<definition name="shopViewSelectedFinTouchesProducts" extends="registryShopTilesBL">
+		<put-attribute name="title" value="Shop View Selected Finishing Touches - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/shop_module/finishing_touches/2_shop_view_selected_finishing_touches_products.jsp" />
+	</definition>
+					
+<!--Registry SignUp Tiles-->
+	<definition name="regSignupTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/02_registry_signup_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/signup_footer.jsp" />
+	</definition>
+	
+	<definition name="createRegistryRedirection" extends="regSignupTilesBL">
+		<put-attribute name="title" value="Create Registry - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/1_registry_creation/01_create_registry_info_page.jsp" />
+	</definition>
+					
+<!--Registry SignIn Tiles-->
+	<definition name="regSigninTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/03_registry_signin_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_footer.jsp" />
+	</definition>
+	
+	<definition name="registryLoginRedirection" extends="regSigninTilesBL">
+		<put-attribute name="title" value="Login - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/3_registry_login_info/01_registry_login.jsp" />
+	</definition>
+	
+	<definition name="registryRedirection" extends="regSigninTilesBL">
+		<put-attribute name="title" value="Registry Home - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/1_registry_home.jsp" />
+	</definition>	
+		
+	<definition name="regForgotPasswordRedirection" extends="regSigninTilesBL">
+		<put-attribute name="title" value="Forgot Password - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/3_registry_login_info/02_registry_forgot_password.jsp" />
+	</definition>
+	
+	<definition name="regSecurityPinRedirection" extends="regSigninTilesBL">
+		<put-attribute name="title" value="Security Pin - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/3_registry_login_info/03_registry_security_pin_for_fp.jsp" />
+	</definition>	
+						
+<!--Registry Find Registry Tiles-->
+	<definition name="findRegTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/04_find_registry_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_footer.jsp" />
+	</definition>
+		
+	<definition name="findRegistryRedirection" extends="findRegTilesBL">
+		<put-attribute name="title" value="Find Registry - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/0_find_registry.jsp" />
+	</definition>		
+					
+<!--Registry Learn More Tiles-->
+	<definition name="regLearnMoreTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/05_registry_learn_more_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_footer.jsp" />
+	</definition>
+	
+	<definition name="registryHowItWorksBLRedirection" extends="regLearnMoreTilesBL">
+		<put-attribute name="title" value="Registry How It Works - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/3_home_how_it_works.jsp" />
+	</definition>
+		
+	<definition name="registryBenefitsBLRedirection" extends="regLearnMoreTilesBL">
+		<put-attribute name="title" value="Registry Benefits - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/4_home_registry_benefits.jsp" />
+	</definition>
+		
+	<definition name="lmDesignServiceBLRedirection" extends="regLearnMoreTilesBL">
+		<put-attribute name="title" value="Learn More Design Service - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/2_learn_more_design_service.jsp" />
+	</definition>	
+	
+	<definition name="regLearnMoreTilesAL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/051_registry_learn_more_al_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_al_footer.jsp" />
+	</definition>
+	
+	<definition name="registryHowItWorksALRedirection" extends="regLearnMoreTilesAL">
+		<put-attribute name="title" value="Registry How It Works - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/3_home_how_it_works.jsp" />
+	</definition>
+		
+	<definition name="registryBenefitsALRedirection" extends="regLearnMoreTilesAL">
+		<put-attribute name="title" value="Registry Benefits - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/4_home_registry_benefits.jsp" />
+	</definition>
+		
+	<definition name="lmDesignServiceALRedirection" extends="regLearnMoreTilesAL">
+		<put-attribute name="title" value="Learn More Design Service - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/1_home/2_learn_more_design_service.jsp" />
+	</definition>	
+	
+<!--Registry Page After Login Tiles-->	
+	<definition name="registryAcTilesAL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/021_registry_account_al_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_al_footer.jsp" />
+	</definition>
+	
+	<definition name="registryOverviewRedirection" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Overview - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/2_registry_landings/1_registry_landing_home_page.jsp" />
+	</definition>
+	
+	<definition name="regEditBackgroundImgForGuestRed" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Edit Background Image for Guest - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/2_registry_landings/2_registry_edit_background_for_guest.jsp" />
+	</definition>
+		
+	<definition name="previewGuestRegistryRed" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry preview for Guest - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/2_registry_landings/3_registry_preview_for_guests_landing.jsp" />
+	</definition>
+	
+	<definition name="createdRoomAndCashFundsRedirection" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Create Room And Cash Funds - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/3_registry_room_funds/01_registry_room_funds_home_page.jsp" />
+	</definition>
+			
+	<definition name="registryRoomFundsInfoDisplay" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Room Funds Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/3_registry_room_funds/02_registry_room_funds_info_display.jsp" />
+	</definition>
+	
+<!-- Room Contributions Tiles -->
+	<definition name="registrySpaceContributeInfoDisplay" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Room FUnds Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/3_registry_room_funds/03_reg_room_funds_contribute_info_display.jsp" />
+	</definition>	
+	
+<!--Registry Cash FUnds Tiles Code-->	
+	<definition name="createdCashFundRedirection" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Cash Funds Home Page - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/4_registry_cash_funds/0_registry_cash_and_custom_fund_home.jsp" />
+	</definition>
+			
+	<definition name="registryCashFundsCreation" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Create Cash Funds - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/4_registry_cash_funds/1_create_top_registry_cash_fund.jsp" />
+	</definition>
+			
+	<definition name="registryCashFundsUpdation" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Update Cash Funds - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/4_registry_cash_funds/2_update_top_registry_cash_fund.jsp" />
+	</definition>
+	
+	<definition name="registryCustomFundsCreation" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Create A Custom Funds - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/4_registry_cash_funds/3_create_custom_registry_cash_fund.jsp" />
+	</definition>
+			
+	<definition name="registryCustomFundsUpdation" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Update A Custom Funds - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/4_registry_cash_funds/4_update_custom_registry_cash_fund.jsp" />
+	</definition>
+			
+	<definition name="registryCustomFundsEditing" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Edit A Custom Funds - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/4_registry_cash_funds/5_landing_edit_custom_registry_cash_fund.jsp" />
+	</definition>	
+	
+	<definition name="designCuratedConceptsBoardsRed" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Design Curated Concepts Boards - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/5_designer_concepts/1_registry_concepts_boards_home.jsp" />
+	</definition>
+	
+	<definition name="registrySelectedConceptBoards" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Selected Curated Concept Boards - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/5_designer_concepts/2_registry_selected_concept_boards.jsp" />
+	</definition>
+	
+	<definition name="registryViewAllDesignsConcepts" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry View All Designs - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/5_designer_concepts/3_registry_view_all_designs.jsp" />
+	</definition>
+	
+	<definition name="regConceptBoardsContributedInfoDisplay" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Concept Boards Contribute Product Info Edit - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/5_designer_concepts/4_landing_registry_contributed_cb_add_to_cart.jsp" />
+	</definition>
+	
+	<definition name="regConceptBoardsContributedProductEdit" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Concept Boards Contributed Product Info Edit - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/5_designer_concepts/5_landing_registry_concept_boards_info_edit.jsp" />
+	</definition>
+	
+<!--Registry Finishing Touches Tiles-->
+	<definition name="registrySelectedFinishingTouches" extends="registryAcTilesAL">
+		<put-attribute name="title" value="registry Selected Finishing Touches - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/6_finishing_touches/1_registry_selected_finishing_touches.jsp" />
+	</definition>
+	
+	<definition name="regViewSelectedFinTouchesProducts" extends="registryAcTilesAL">
+		<put-attribute name="title" value="registry Selected Finishing Touches - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/6_finishing_touches/2_registry_view_selected_finishing_touches_products.jsp" />
+	</definition>
+	
+	<definition name="finishingTouchesContributedProductAddToCart" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Finishing Touches Contributed Product Add To Cart - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/6_finishing_touches/3_finishing_touches_contributed_product_add_to_cart.jsp" />
+	</definition>
+	
+	<definition name="editFinishingTouchesSelectedProducts" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Edit Finishing Touches Selected Products - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/2_registry_concepts_and_funds/6_finishing_touches/4_edit_finishing_touches_selected_products.jsp" />
+	</definition>
+	
+<!--Registry Payment Tiles-->	
+	<definition name="registrantAddCartInfoDisplay" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registry Add Cart Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/6_registry_payment/1_registry_shopping_cart_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantFundsCheckOutContactRed" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registrant Funds Checkout Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/6_registry_payment/2_registry_checkout_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantReviewAndPlaceOrderRed" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registrant Review And Place Order Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/6_registry_payment/3_registry_review_and_place_order_display.jsp" />
+	</definition>
+	
+	<definition name="registrantPaymentInfoRedi" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registrant Payment Info - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/6_registry_payment/4_registry_cart_payment_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantGiftCardPaymentInfoRedi" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registrant Gift Card Payment Info - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/6_registry_payment/5_registry_gift_card_payment_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantGiftCardZeroPaymentInfoRedi" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registrant Gift Card Zero Payment Info - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/6_registry_payment/6_registry_gift_card_zero_payment_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantPaymentSuccessRed" extends="registryAcTilesAL">
+		<put-attribute name="title" value="Registrant Payment Success - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/6_registry_payment/7_registry_user_payment_success.jsp" />
+	</definition>		
+		
+<!--Registry My Accounts After Login Tiles-->	
+	<definition name="registryMyAccTilesAL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/06_registry_my_account_al_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_al_footer.jsp" />
+	</definition>
+	
+	<definition name="registryContactInfoRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registry Contact Info - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/1_registry_contact_info_edit.jsp" />
+	</definition>
+	
+	<definition name="registryPasswordChangeRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registry Password Change - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/2_registry_change_password_edit.jsp" />
+	</definition>
+	
+	<definition name="registryEventInfoChangeRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registry Event Info Change - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/3_registry_event_info_edit.jsp" />
+	</definition>
+	
+	<definition name="registryURLInfoChangeRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registry URL Info Change - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/4_registry_url_info_edit.jsp" />
+	</definition>
+	
+	<definition name="registryPrivacyInfoChangeRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registry Privacy Info Change - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/5_registry_privacy_info_edit.jsp" />
+	</definition>
+	
+	<definition name="registrantShippingInfoDisplayRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registrant Shipping Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/6_registry_shipping_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantMyOrderDisplayRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registrant My Order Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/7_registry_my_orders_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantGiftsReceivedDisplayRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registrant Gifts Received Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/8_registry_gifts_received_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantRoomFundsDisplayRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registrant Room Funds Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/9_0_registry_room_funds_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantCashFundsDisplayRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registrant Cash Funds Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/9_1_registry_cash_funds_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantCashFundsBankAccountsRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registrant Cash Funds Bank Accounts Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/9_2_registry_cash_bank_accounts_info_display.jsp" />
+	</definition>
+	
+	<definition name="registrantStoreCreditDisplayRed" extends="registryMyAccTilesAL">
+		<put-attribute name="title" value="Registrant Store Credit Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/5_my_account/9_3_registry_store_credit_info_display.jsp" />
+	</definition>	
+		
+<!--Registry No Guest search Page Tiles-->	
+	<definition name="regNoGuestTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/08_2_reg_no_guest_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/guest_footer.jsp" />
+	</definition>
+	
+	<definition name="searchNoRecordsForGuestRed" extends="regNoGuestTilesBL">
+		<put-attribute name="title" value="Search No Records For Guest - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/1_landing_page/2_no_records_found_from_registry.jsp" />
+	</definition>
+		
+<!--Registry Page After Login Tiles-->	
+	<definition name="regGuestTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/registry/08_1_reg_guest_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/guest_footer.jsp" />
+	</definition>
+	
+	<definition name="searchRegistryInfoForGuestRed" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Search Registry Info For Guest - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/1_landing_page/1_guest_registry_landing_home.jsp" />
+	</definition>
+	
+	<definition name="spaceContributeInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Space Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/2_room_funds/1_room_fund_contribute_info_display.jsp" />
+	</definition>
+	
+	<definition name="fulRoomDesnContributeInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Full Room Design Package Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/2_room_funds/2_full_room_design_contribute_info_display.jsp" />
+	</definition>
+	
+	<definition name="accPackageContributeInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Accessories Package Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/2_room_funds/3_accessories_package_contribute_info_display.jsp" />
+	</definition>
+		
+	<definition name="guestCashFundContributeInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Guest Custom Fund Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/3_cash_fund/1_guest_cash_fund_contribute_info_display.jsp" />
+	</definition>
+	
+	<definition name="guestCustomFundContributeInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Guest Custom Fund Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/3_cash_fund/2_guest_custom_fund_contribute_info_display.jsp" />
+	</definition>
+	
+	<definition name="guestConceptBoardsContributeInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Concept Boards Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/4_concept_boards/1_concept_boards_contribute_info_display.jsp" />
+	</definition>
+	
+	<definition name="guestFinishingTouchesContributeInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Finishing Touches Contribute Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/5_finishing_touches/1_finishing_touches_contribute_info_display.jsp" />
+	</definition>
+	
+	<definition name="regGuestAddCartInfoDisplay" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Guest Add Cart Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/6_guest_payment/1_guest_shopping_cart_info_display.jsp" />
+	</definition>
+	
+	<definition name="guestFundsCheckOutNowRed" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Guest Funds Checkout Info Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/6_guest_payment/2_guest_checkout_info_display.jsp" />
+	</definition>
+	
+	<definition name="guestReviewAndPlaceOrderRed" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Review And Place Order Display - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/6_guest_payment/3_guest_review_and_place_order_display.jsp" />
+	</definition>
+	
+	<definition name="guestRegistryPaymentInfoRed" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Guest Registry Payment Info - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/6_guest_payment/4_guest_registry_payment_info_display.jsp" />
+	</definition>
+	
+	<definition name="guestPaymentSuccessRed" extends="regGuestTilesBL">
+		<put-attribute name="title" value="Guest Payment Success - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/registry_module/4_guest_registry/6_guest_payment/5_guest_user_payment_success.jsp" />
+	</definition>
+		
+<!--Referral Program Before Login Tiles-->
+	<definition name="referralProTilesBL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/referral/1_referral_user_bl_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_footer.jsp" />
+	</definition>
+		
+	<definition name="referralUserLoginRed" extends="referralProTilesBL">
+		<put-attribute name="title" value="Referral User Login - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/login/1_referral_user_login.jsp" />
+	</definition>
+		
+	<definition name="referralLearnMoreRed" extends="referralProTilesBL">
+		<put-attribute name="title" value="Referral Learn More - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/login/2_referral_learn_more.jsp" />
+	</definition>
+		
+	<definition name="referralFormCreation" extends="referralProTilesBL">
+		<put-attribute name="title" value="Referral Form Creation - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/login/3_referral_form_creation.jsp" />
+	</definition>
+		
+	<definition name="referralFormSuccess" extends="referralProTilesBL">
+		<put-attribute name="title" value="Referral Form Success - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/login/4_referral_form_success.jsp" />
+	</definition>
+		
+	<definition name="refferalForgotPassword" extends="referralProTilesBL">
+		<put-attribute name="title" value="Refferal Forgot Password - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/login/5_referral_forgot_password.jsp" />
+	</definition>
+		
+	<definition name="refferalSecurityPinRed" extends="referralProTilesBL">
+		<put-attribute name="title" value="Refferal Security Pin - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/login/6_referral_security_pin.jsp" />
+	</definition>
+			
+<!--Referral Program Before Login Tiles-->
+	<definition name="referralProTilesAL" template="/WEB-INF/view/layouts/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/view/layouts/referral/2_referral_user_al_header.jsp" />		
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/view/layouts/registry/reg_footer.jsp" />
+	</definition>
+		
+	<definition name="referralMyAccountRed" extends="referralProTilesAL">
+		<put-attribute name="title" value="Referral Contact and Business Info - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/my_account/1_0_contact_and_business_info.jsp" />
+	</definition>
+		
+	<definition name="referralShippingInfoRed" extends="referralProTilesAL">
+		<put-attribute name="title" value="Referral Shipping Info - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/my_account/1_1_referral_shipping_info.jsp" />
+	</definition>
+		
+	<definition name="referralPasswordInfoRed" extends="referralProTilesAL">
+		<put-attribute name="title" value="Referral Password Change - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/my_account/2_change_password_info.jsp" />
+	</definition>
+		
+	<definition name="myReferralCodeInfoRed" extends="referralProTilesAL">
+		<put-attribute name="title" value="My Referral Code - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/my_account/3_my_referral_code_info.jsp" />
+	</definition>
+		
+	<definition name="activeReferralsInfoRed" extends="referralProTilesAL">
+		<put-attribute name="title" value="Active Referrals - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/my_account/4_active_referrals_info.jsp" />
+	</definition>
+		
+	<definition name="referralNookAndCoveStoreCreditRed" extends="referralProTilesAL">
+		<put-attribute name="title" value="Referral Nook And Cove Store Credit - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/my_account/5_referral_nook_and_cove_store_credit.jsp" />
+	</definition>
+		
+	<definition name="referralVisaGiftCardsRed" extends="referralProTilesAL">
+		<put-attribute name="title" value="Referral Visa Gift Cards - NookCove" />
+		<put-attribute name="body" value="/WEB-INF/view/referral_module/my_account/6_referral_visa_gift_cards.jsp" />
+	</definition>	
+
+</tiles-definitions>

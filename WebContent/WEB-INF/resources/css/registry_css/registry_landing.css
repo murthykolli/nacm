@@ -1,0 +1,163 @@
+.registry_home_top_img_big_text h1 { font: bold 1.15em/1.45em Georgia; text-align: left; letter-spacing: 2px; color: black; text-transform: uppercase; margin-top: 5px; }
+	.registry_home_top_img_small_text h3 { font: italic 0.9em/1.45em Georgia; text-align: left; letter-spacing: 1px; color: black; text-transform: uppercase; margin-top: 15px; }
+	.regi_home_cr_sub_butt { display: block; margin: 0px auto; vertical-align: middle; background-color: #ff3b3b; color: white; display: inline-block; text-transform: uppercase; padding: 0.6em 2.0em; outline: none; border: none; font: 500 1.1em/1.25em Georgia; letter-spacing: 2px; background-position:50% 50%; background-repeat:no-repeat; height: 100%; -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); }
+	.regi_home_cr_sub_butt:hover { background-color: #2c2c2c; }
+	
+	.reg_home_top_sub_but { text-align: center; display: block; margin: 0px auto; vertical-align: middle; background-color: #ff3b3b; color: white; display: inline-block; text-transform: uppercase; padding: 0.5em; white-space: nowrap; width: 180px; outline: none; border: none; font: 500 0.9em/1.25em Georgia; letter-spacing: 0px; background-position: 50% 50%; background-repeat:no-repeat; -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); -moz-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); } 
+	.reg_home_top_sub_but:hover { background-color: #393939; color: white }
+	
+	.rindex_mob_top_oxh { overflow-x: hidden }
+	.rindex_mob_top_img_htp { padding: 6% 1% 6% 6%; height: 450px; }
+	.rindex_mob_top_frame_adj { position: absolute; top: 50%; left: 32%; transform: translate(-32%, -50%); }
+	.rindex_mob_top_bg_frame { padding: 6%; background: rgba(255,255,255, 0.75); width: 206px; margin: auto; }
+	.rindex_mob_top_txtbt { margin-bottom: 20px; }
+	.rindex_mob_topse_txtbt { margin-bottom: 10px; }
+	.rindex_mob_ruao_txt_bld { font: bold 1.05em/1.25em Georgia; text-align: center; letter-spacing: 2px; }
+	.rindex_mob_ruao_txt_fld { font: bold 1.25em/1.25em Georgia; }
+	.rindex_mob_ruao_smtxt_dsp { font: 500 1.3em/1.5em Georgia; }
+	.rindex_mob_ruao_subtxt_dcl { font: bold 1.25em/2.25em Georgia; }
+	.rindex_mob_cdb_bar_line { border-bottom: 1px solid #595959; width: 20%; margin-bottom: 20px; margin-top: 10px; }
+	.rindex_mob_cdb_stxt { font: 500 0.88em/1.5em Georgia; letter-spacing: 1px; margin-bottom: 15px; text-align: center; }
+	.rindex_mob_cdbsubtat_cl { font: bold 1.05em/2.25em Georgia; text-align: center; letter-spacing: 2px; }
+	.rindex_mob_cdb_btm_line { border-bottom: 1px solid #595959; width: 20%; margin-bottom: 20px; margin-top: 5px; }
+	.rindex_mob_wmutu_smtxt { font: bold 1.05em/2.25em Georgia; text-align: center; letter-spacing: 2px; }
+	.rindex_mob_wmutu_mtbt { margin-top: 20px; margin-bottom: 0px; }
+	.rindex_mob_wmutu_subtxtdsp { font: 500 0.90em/1.5em Georgia; letter-spacing: 1px; text-align: center; }
+	.rindex_mob_com_htxt_ { font: bold 1.0em/1.5em Georgia;letter-spacing: 2px; margin-top: 50px; }
+	.rindex_mob_comp_box { border: 1px solid; margin-top: 10px; margin-left: 2px; margin-right: 2px; }
+	.rindex_mob_com_bottxt { font: 0.9em/1.5em Georgia;letter-spacing: 1px; margin-top: 0px; margin-bottom: 15px; }
+	.rindex_mob_bot_boxd { background: rgba(255,255,255, 0.65); margin: auto; width: 280px; padding: 15px; margin-top: 5px; }
+	.rindex_mob_bot_htxt { font: bold italic 1.0em/1.25em Georgia; text-align: center; letter-spacing: 2px; color: black; }
+	
+	#home-page .design-process .steps .step .number { font: 700 1.2em/2.05em Georgia; color: white; margin: 35px 0 15px; height: 45px; width: 45px; border: 2px solid #595959; background-color: #595959; border-radius: 50%; display: inline-block; z-index: 100; box-shadow: 2px 3px 5px grey; }
+	#home-page .design-process .steps .step .name { font-size: 1.02em; color: #000; text-transform: uppercase; letter-spacing: 2px; text-align: center; }
+	#home-page .design-process .steps .step .name:after { content: ''; border-bottom: 1px solid #F83939; width: 30%; display: block; text-align: center; margin: 20px auto; }
+	#home-page .design-process .steps .step .description { color: black; text-align: center; text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; line-height:1.5em; width: 100%; min-height: 70px; align-items: center; display: flex; }
+	.desin_border_text_box_frame { background-color: #f7f9fc; box-shadow: 2px 3px 5px grey; padding: 15px; margin-top: -25px; }
+	#home-page .gift-cards .gift-card {  background-color: #f7f9fc; box-shadow: 2px 3px 7px #5f5f5f; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; min-height: 200px; width: 100%; margin: 0 auto; padding-left: 25px; padding-right: 25px; padding-bottom: 20px; }
+	#home-page .gift-cards .gift-card p { font: 500 0.92em/1.25em Georgia; letter-spacing: 1px; width: 96%; text-align: center; color: black; }
+	.room_number_dsp { font: 700 1.5em/2.05em Georgia; color: white; margin: -30px 0 5px; height: 60px; width: 60px; border: 2px solid #595959; background-color: #595959; border-radius: 50%; display: inline-block; z-index: 100; box-shadow: 2px 3px 5px grey; }
+	#home-page .gift-cards .gift-card .images { position: relative; text-align: center; min-height: 100px; margin-top: 10px; }
+	#home-page .gift-cards .gift-card .images img { margin: -10px 0 20px; -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0); -moz-box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0); box-shadow: 0 0px 0px rgba(0,0,0,0), 0 0px 0px rgba(0,0,0,0); width: 100%; min-height: 100px; }
+	#home-page .gift-cards { display: flex; justify-content: space-between; align-items: center; background-color: #f2f2f2; margin: 64px 0; padding: 70px 10%; }
+	.top_hd_fl_text_dsp { font: bold 1.9em/1.5em Georgia; letter-spacing: 0px; color: black; }
+	.top_hd_nl_text_dsp { font: bold 1.10em/1.4em Georgia; letter-spacing: 1px; color: black; }
+	.top_hd_small_text_dsp { font: bold 0.82em/1.4em Georgia; letter-spacing: 1px; color: black; }
+	.top_sub_small_text_dsp { font: 0.9em/1.4em Georgia; letter-spacing: 1px; color: black; margin-top: 20px;}
+	.bud_style_text_dsp { font: bold 1.25em/1.25em Georgia; letter-spacing: 1px; color: black; padding: 10px; }
+	.bud_rs_hd_text_dsp { font: bold 1.2em/1.75em Georgia; letter-spacing: 1px; color: white; background-color: #404040; padding: 14px 30px; border-radius: 10px; box-shadow: 2px 0px 10px rgba(1, 1, 1, 0.15); cursor: default; }
+	.bullet_dsp_cl { margin-left: 30px; margin-right: 0px; margin-top: 20px; font: 1.02em/1.5em Georgia; letter-spacing: 1px; color: black; }
+	.design_fun_text_dsp { font: italic 500 1.8em/1.25em Times New Roman; letter-spacing: 0px; color: #7f6000; }
+	
+	.foot_ls_small_font { font: bold 1.0em/1.25em Georgia; letter-spacing: 1px; color: white; }
+	.foot_ls_medium_font { font: bold 1.2em/1.25em Georgia; letter-spacing: 1px; color: white; }
+	.foot_ls_big_fl_font { font: bold 2.1em/1.25em Georgia; letter-spacing: 0px; color: white; }
+	.foot_ls_big_nl_font { font: bold 1.5em/1.35em Georgia; letter-spacing: 1px; color: white; }
+	.foot_ls_big_number_font { font: bold 2.2em/1.25em Georgia; letter-spacing: 1px; color: white; }
+	.get_start_text_dsp { font: italic bold 1.4em/1.25em Times New Roman; letter-spacing: 0px; color: white; }
+	
+	.desn_home_car_sub_butt { display: block; margin: 0px auto; vertical-align: middle; background-color: red; color: white; display: inline-block; text-transform: uppercase; padding: 8px 20px; outline: none; border: none; font: 500 1.05em/1.25em Georgia; letter-spacing: 1px; } 
+	.desn_home_car_sub_butt:hover { background-color: white; color: red }
+
+	.bullet_dsp_cl ul li::before { content: "\2022"; color: black; font-weight: bold; display: inline-block; width: 1.6em; margin-left: -1.6em; margin-top: 30px;  }
+	.mlmds_top_framet_dsp { margin-top: 25px; width: 90%; margin: 0 auto; }
+	.mlmds_top_stxt_dsp { min-height: 70px; align-items: center; display: flex; }
+	.mlmds_top_stxt_sb_dsp { min-height: 90px; align-items: center; display: flex; }
+	.mlmds_top_sec_frame_dsp { position: relative; top: 140px; left: -12.72% }
+	.mlmds_mdl_bgnd_dsp { background-color: #f2f2f2; min-height: 200px; padding: 30px 0px; }
+	.mlmds_bott_bgnd_dsp { background-color: #283d4d; min-height: 100px; padding: 50px 10px; }
+	
+	.reg_search_img_resize_dsp { object-fit: cover; width: 65px; height: 65px; position: relative; overflow: hidden; border-radius: 50%; background-size: cover; display: block; background: #ece7e7; box-shadow: 1px 1px 1px #808080; -webkit-box-shadow: 1px 1px 1px #808080; -moz-box-shadow: 1px 1px 1px #808080; top: -10px; }
+	.rfind_reg_prg_cl { padding-right: 0px; }
+	.rfind_reg_pdnlft_cl { padding-left: 30px; }
+	.rfind_reg_fwtxta_cl { font-weight: bold; text-align: center; }
+	.rfind_reg_txtamlt_cl { text-align: center; margin-left: 30px; }
+	.rfind_reg_dsplcr_cl { display: none; color: black; }
+	.rfind_reg_clrcurs_cl { color: black; cursor: default; }
+	.rfind_reg_mgrlsg { margin-right: 30px; letter-spacing: 0px; }
+	.rfind_reg_hton_cl { height: 80px; }
+	.rfind_reg_dspon_cl { display: none }
+	
+	.big_font_flt_dsp { font: bold 2.8em/1.5em Georgia; letter-spacing: 2px; color: black; }
+    .big_font_rt_dsp { font: bold 2.3em/1.5em Georgia; letter-spacing: 2px; color: black; }
+    .midium_font_flt_dsp { font: bold 2.27em/1.5em Georgia; letter-spacing: 2px; color: black; }
+    .midium_font_rt_dsp { font: bold 1.70em/1.5em Georgia; letter-spacing: 2px; color: black; }
+    .heading_font_rt_dsp { font: 600 1.20em/1.5em Georgia; letter-spacing: 2px; color: black; }
+    .hiw_link_dsplay { font: 500 1.0em/1.5em Georgia; color: #1a69b3; text-decoration: underline; }
+    .hiw_link_dsplay:hover { color: red; text-decoration: underline; }
+    
+    #reg_how_it_works_frame .step { display: flex; justify-content: space-between; align-items: center; margin: 10px 0; min-height: 400px; }
+	#reg_how_it_works_frame .step img{  margin-left: 0%; }
+	#reg_how_it_works_frame .step .description{ width: 55%; margin-right: 2%; color: black; letter-spacing: 1px; font-family: Georgia; font-size: 1.23em; margin-top: -10px; border-left: 1px solid black; padding-left: 40px; padding-bottom: 13px; }
+	#reg_how_it_works_frame .step .description .title { font-size: 1.5em; margin-bottom: 18px; font-family: Georgia; font-weight:700; text-transform: uppercase; line-height: 2em; }
+	#reg_how_it_works_frame .step.right .vertical.line { margin: 0 auto auto 3.3%; }
+	#reg_how_it_works_frame .ruler img{ margin: 0 auto; width: auto; }
+
+	@media screen and (max-width: 768px) { 
+ 	.mobile{ display: block; } .desktop { display: none; } #reg_how_it_works_frame .step { flex-direction: column;   align-items: center;   justify-content: center;   text-align: center; } #reg_how_it_works_frame .step img, #reg_how_it_works_frame .step.right img{ order: 1;   margin: 16px auto !important;   width: auto;  max-width: 96%; } #reg_how_it_works_frame .step .description, #reg_how_it_works_frame .step.right .description { order: 3;   width: 94%;  text-align: center;   margin: 16px auto !important; } #reg_how_it_works_frame .horizontal.line { order: 2;   margin-bottom: 32px; }
+ 	}
+ 	@media screen and (max-width: 375px) { #reg_how_it_works_frame .step .description .title { font-size: 0.9em; } #reg_how_it_works_frame .step .description p { font-size: 0.7em; } .input_box_disp { width: 320px; }
+ 	}
+ 	
+ 	.mhtwr_top_tb_mtb { margin-top: 20px; margin-bottom: 20px; }
+ 	.mhtwr_top_bkg_frm_dsp { border: 1px solid #f2f2f2; padding: 12px; background: #f2f2f2; font: bold 1.5em/1.5em Georgia; letter-spacing: 1px; color: black; white-space: nowrap; }
+ 	.mhtwr_top_txtf_bld_cl { font: bold 1.5em/1.5em Georgia; }
+ 	.mhtwr_top_btxt_mllsc { font: bold 1.25em/1.5em Georgia; margin-top: 15px; letter-spacing: 1px; color: black; }
+ 	.mhtwr_top_fntb_txt_dsp { font: bold 1.35em/1.5em Georgia; }
+ 	.mhtwr_mid_fntb_mtc { font: bold 1.0em/1.5em Georgia; margin-top: 20px; letter-spacing: 1px; color: black; }
+ 	.mhtwr_top_fntbld_dp { font: 600 1.30em/1.5em Georgia; }
+ 	.mhtwr_bt_fnlmtlsc { font: 1.0em/1.5em Georgia; margin-top: 20px; letter-spacing: 0px; color: black; }
+ 	.mhtwr_bt_mtbw { border-top: 1px solid black; margin-top: 10px; margin-botom: 10px; width: 200px; }
+ 	
+ 	.hrb_top_mtmbzr { margin-top: 20px; margin-bottom: 0px; }
+ 	.hrb_top_ftbtals { font: bold 1.05em/2.25em Georgia; text-align: center; letter-spacing: 2px; }
+ 	.hrb_top_fntls_txta { font: 500 0.90em/1.5em Georgia; letter-spacing: 1px; text-align: center; }
+ 	
+ 	@font-face { font-family: 'Allura-Regular'; src: url('resources/sitefonts/Allura-Regular.ttf') format('truetype'); }
+	.reg_page1_heading_cong_text_dsp { font: bold italic 5.0em Allura-Regular; color: #3c3c3c; }
+	.reg_page1_small_text_dsp { font: italic 1.05em/1.25em Georgia; letter-spacing: 0px; color: black; padding: 20px;  }
+	.reg_page1_sub_button { display: block; margin: 0px auto; vertical-align: middle; background-color: #ff3b3b; color: white; display: inline-block; padding: 4px 40px; font: italic 1.1em/1.25em Georgia; letter-spacing: 1px; border: none; background-position: 50% 50%; background-repeat:no-repeat; box-shadow: 0 3px 3px rgba(0,0,0,0.2), 0 3px 3px rgba(0,0,0,0.2); -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2), 0 3px 3px rgba(0,0,0,0.2); -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2), 0 3px 3px rgba(0,0,0,0.2); }
+	.reg_page1_sub_button:hover { background-color: #494949; color: white }
+	
+	.reg_page2_heading_top_text_dsp h3 { font: italic 1.6em/1.05em Georgia; letter-spacing: 1px; color: black; }
+	.reg_input_heading_text_dsp { font: italic 1.02em/1.05em Georgia; letter-spacing: 1px; color: black; white-space: nowrap; }
+	.reg_page2_check_box_text_dsp { font: 0.9em/1.05em Georgia; letter-spacing: 1px; color: black; white-space: nowrap; }
+	.reg_page2_next_butt_text_dsp { font: 0.85em/1.05em Georgia; letter-spacing: 0px; color: black; cursor: pointer; }
+	.reg_page2_next_butt_text_dsp:hover { color: red; }
+	
+	.reg_page2_select_box { background-color: white; box-shadow:inset 1px 1px 2px #999; -webkit-box-shadow:inset 1px 1px 2px #999; -moz-box-shadow:inset 1px 1px 2px #999; border: 1px solid #999999; width: 300px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 15px; }
+	.reg_page2_select_sub_box1 { background-color: white; box-shadow:inset 1px 1px 2px #999; -webkit-box-shadow:inset 1px 1px 2px #999; -moz-box-shadow:inset 1px 1px 2px #999; border: 1px solid #999999; width: 110px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 15px; }
+	.reg_page2_select_sub_box2 { background-color: white; box-shadow:inset 1px 1px 2px #999; -webkit-box-shadow:inset 1px 1px 2px #999; -moz-box-shadow:inset 1px 1px 2px #999; border: 1px solid #999999; width: 70px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 15px; margin-left: 15px; }
+	.reg_page2_select_sub_box3 { background-color: white; box-shadow:inset 1px 1px 2px #999; -webkit-box-shadow:inset 1px 1px 2px #999; -moz-box-shadow:inset 1px 1px 2px #999; border: 1px solid #999999; width: 90px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 15px; margin-left: 15px; }
+	.reg_page5_sm_select_box { background-color: white; box-shadow:inset 1px 1px 2px #999; -webkit-box-shadow:inset 1px 1px 2px #999; -moz-box-shadow:inset 1px 1px 2px #999; border: 1px solid #999999; width: 180px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 15px; }
+	
+	.reg_page3_textfield_box { background-color: white; border-left: none; border-top: none; border-right: none; border-bottom: 1px solid #999999; width: 160px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 5px; }	
+	.reg_page4_textfield_box { background-color: white; border-left: none; border-top: none; border-right: none; border-bottom: 1px solid #999999; width: 280px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 5px; }
+	.reg_page5_subheading_text_dsp h3 { font: italic 1.15em/1.05em Georgia; letter-spacing: 1px; color: black; }
+	.reg_page5_ulr_text_dsp { font: italic 0.95em/1.05em Georgia; letter-spacing: 1px; color: black; }
+	.reg_page5_text_field_box { background-color: white; box-shadow:inset 1px 1px 2px #999; -webkit-box-shadow:inset 1px 1px 2px #999; -moz-box-shadow:inset 1px 1px 2px #999; border: 1px solid #595959; width: 160px; height: 24px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 5px; }
+	.reg_vender_id_text_field_dsp { background-color: white; border: 1px solid #999999; width: 200px; height: 28px; font: 500 0.95em/1.5em Georgia; text-align: left; letter-spacing: 1px; color: black; margin-bottom: 5px; }
+	
+	.reg_alr_reg_text_dsp { font: 0.98em/1.05em Georgia; letter-spacing: 0px; color: black; }
+	a.reg_signin_text_dsp { font: 0.98em/1.05em Georgia; letter-spacing: 0px; color: #014d88; text-decoration: underline; }
+	a.reg_signin_text_dsp:hover { color: red; text-decoration: underline; }
+	
+	.reg_black_dots_dsp { font: 3.85em/1.05em Georgia; color: #aca8a7; margin-left: -6px; }
+	.reg_red_dots_dsp { font: 3.85em/1.05em Georgia; color: #ff5e63; margin-left: -6px; }
+	
+	.cr_frame_display_box_cl { height: 400px; margin-left: 0px; margin-right: 0px; border: 1px solid #797979; -moz-box-shadow: inset 0 0 6px #1c1c1c; -webkit-box-shadow: inset 0 0 6px #1c1c1c; box-shadow: inset 0 0 6px #1c1c1c; background: white; }
+	.frame_height_display_cl { margin-top: -530px; position: relative; }
+	.rsinup_all_ndsp { display: none; }
+	.rsinup_all_bbar_line_dsp { border-bottom: 1px solid #999999; margin-top: 15px; width: 180px; }
+	.rsinup_md_mtw_cl { margin-top: 20px; width: 200px; }
+	.rsinup_sntxtf_wt { width: 200px; margin-top: 5px; margin-left: 0px; }
+	.rsinup_all_thmtaj_cl { height: 60px; margin-top: 20px; }
+	.rsinup_atbl_frm_adj { width: 94%; margin-top: 17px; }
+	.rsinup_all_curpon { cursor: pointer; }
+	.rsinup_trdr_mt_wt { margin-top: 50px; width: 200px; }
+	.rsinup_fthr_mt_wt { margin-top: 70px; width: 200px; }
+	.rsinup_trhtf_dsp { height: 30px; }
+	.rsinup_trhts_dsp { height: 23px; }
+	.rsinup_frhtst_dsp { height: 25px; }
+	
+	

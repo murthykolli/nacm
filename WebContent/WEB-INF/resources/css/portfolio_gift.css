@@ -1,0 +1,104 @@
+ 
+/* Portfolio css*/
+ 
+.portfolios{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+ 
+#prev, #next{
+    background-color: #5c5c5c;
+    border: 1px solid #3c3c3c;
+    color: white;
+    cursor: pointer;
+    font: bold 0.8em/1.25em sans-serif;
+    outline: none;
+    padding: 3px 5px;
+}
+
+#prev span, #next span{
+    font-size: 16px;    
+}
+
+#prev:hover, #next:hover{
+    background-color: #FF3B3B;
+    border: 1px solid red;
+    outline: none;
+}
+
+#portfolioMask {
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    background: #000000;
+ } 
+
+#portfolioBoxes .window {
+    position:absolute;
+    z-index:9999;
+}
+
+#portfolioBoxes #dialog {
+    height:auto;
+    padding:2px 5px 5px;
+    font-size: 15pt;
+}
+
+/* Gift css*/
+
+.separationLine {
+    border-top: 1px solid red; margin-left: 35px; width: 890px;	
+}
+
+.mainHeaddings {
+    margin-left: 42px;
+    margin-top: 20px;
+    font: bold 1.1em/1.25em Serif, Georgia;
+    color: #2c2c2c;
+    white-space: nowrap;	
+}
+	
+input[type="text"]{
+    -webkit-appearance: none; 
+    border: 1px solid black; width: 250px; height: 22px; 
+}
+
+.label{
+    font:0.9em/1.25em sans-serif;color: #2c2c2c;    
+}
+
+.calc{
+    cursor: pointer;
+    font: normal 1.4em/1.25em sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ 
+.calc:hover{
+    color: red;
+ }
+
+textarea{
+    border: 1px solid black; width: 250px;
+}
+
+.buttonstyleClass {
+    background-color: #ff3b3b;
+    color: white;
+    font: bold 1em/1.25em sans-serif;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+    padding: 10px;
+    outline-style: none;
+}
+
+.buttonstyleClass:hover {
+    background-color: #4c4c4c;
+}

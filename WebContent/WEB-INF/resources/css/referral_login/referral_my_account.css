@@ -1,0 +1,40 @@
+@font-face { font-family: 'Allura-Regular'; src: url('resources/sitefonts/Allura-Regular.ttf') format('truetype'); }
+	.referral_login_hd_text_dis { font: 3.5em/1.25em Allura-Regular; letter-spacing: 0px; color: black; text-transform: capitalize; }
+	
+	.reff_top_left_main_hd_cl h2 { font: bold 1.1em/1.25em Georgia; color: black; letter-spacing: 2px; padding-top: 10px; }	
+	.reff_left_sub_hd_text_cl h3 { font: bold 0.95em/1.25em Georgia; color: black; letter-spacing: 2px; }
+	a.reff_left_link_text_red_color { font: normal 0.9em/1.25em Georgia; color: red; letter-spacing: 2px; text-decoration: none; cursor: pointer; }
+	a.reff_left_link_text_black_color { font: normal 0.95em/1.25em Georgia; color: black; letter-spacing: 2px; text-decoration: none; cursor: pointer; }
+	a.reff_left_link_text_black_color:hover { color: red; text-decoration: none; cursor: pointer; }
+	
+	.reff_right_side_bar_dspl { border-bottom: 1px solid red; width: 200px; margin-top: 30px; margin-bottom: 20px; margin-left: 0px;}
+	.reff_right_frame_adj_disp { padding-left: 50px; padding-bottom: 25px; }
+	.my_referral_code_text { font: 500 1.15em/1.25em Georgia; color: black; letter-spacing: 1px; }
+	.my_referral_code_text_bold { font: bold 0.82em/1.25em Georgia; color: black; }
+	.my_referral_unq_code_text { font: bold 1.5em/1.25em Georgia; color: #0070c0; letter-spacing: 1px; }
+	.referrals_div_hor1_bar { border-bottom: 1px solid #999; padding-top: 8px; }
+    .referrals_div_hor2_bar { border-bottom: 1px solid #999; padding-bottom: 8px; padding-top: 7px;  }
+    .referrals_user_hd_text_dsp { font: 0.95em/1.25em Georgia; letter-spacing: 1px; color: black; text-align: center; text-transform: uppercase; padding: 20px; }
+    .ref_act_gift_cards_sub_buttn { display: block; margin: 0px auto; vertical-align: middle; background-color: red; color: white; display: inline-block; text-transform: uppercase; outline: none; border: none; font: normal 1.2em/1.25em Georgia; padding: 7px; letter-spacing: 1px; box-shadow: 2px 2px 3px #999999; width: 280px; }
+	.ref_act_gift_cards_sub_buttn:hover { background-color: #595959; }
+	.ref_disa_gift_cards_sub_buttn { display: block; margin: 0px auto; vertical-align: middle; background-color: red; color: white; display: inline-block; text-transform: uppercase; outline: none; border: none; font: normal 1.2em/1.25em Georgia; padding: 7px; letter-spacing: 1px; box-shadow: 2px 2px 3px #999999; width: 280px; opacity:0.2; cursor: none; }
+	.referrals_nc_sc_hd_text_dsp { font: 0.95em/1.25em Georgia; letter-spacing: 2px; color: black; text-align: center; text-transform: uppercase; }
+	.referrals_nc_sc_bhd_text_dsp { font: bold 0.95em/1.25em Georgia; letter-spacing: 2px; color: black; text-transform: uppercase; }
+	.referrals_nc_price_sc_bhd_text_dsp { font: bold 1.05em/1.25em Georgia; letter-spacing: 2px; color: black; text-transform: uppercase; }
+	.ref_reward_sel_bold_text_dsp { font: bold 0.96em/1.5em Georgia; letter-spacing: 1px; color: black; text-align: center; vertical-align: middle; }
+	.ref_reward_sel_sml_text_dsp { font: 0.90em/1.5em Georgia; letter-spacing: 1px; color: black; text-align: center; text-transform: uppercase; vertical-align: middle; }
+	.reward_visa_gift_cards_sub_buttn { display: block; margin: 0px auto; vertical-align: middle; background-color: red; color: white; display: inline-block; text-transform: uppercase; outline: none; border: none; font: normal 1.2em/1.25em Georgia; padding: 11px; letter-spacing: 1px; box-shadow: 2px 2px 3px #999999; width: 600px; }
+	.reward_visa_gift_cards_sub_buttn:hover { background-color: #595959; }
+	.reward_bott_sml_text_dsp { font: 1.1em/1.45em Georgia; letter-spacing: 1px; color: black; vertical-align: middle; }
+	.refe_custom_gc_btext_dsp { font: bold 1.25em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.refe_custom_gc_code_btext_dsp { font: bold 1.18em/1.25em Georgia; letter-spacing: 1px; color: #3762af; }
+	.referrals_act_div_hor_bar { border-bottom: 1px solid #999; padding-bottom: 10px; margin-top: 10px; }
+	.referrals_div_hor_bar { border-bottom: 1px solid #999; margin-bottom: 10px; margin-top: 10px; }
+	.ref_custom_gc_btext_dspl { font: bold 0.96em/1.25em Georgia; letter-spacing: 2px; color: black; text-align: center; text-transform: uppercase; }
+	.ref_custom_gc_amt_btext_dspl { font: bold 1.2em/1.25em Georgia; letter-spacing: 2px; color: black; text-align: center; text-transform: uppercase; }
+	
+
+
+
+
+	

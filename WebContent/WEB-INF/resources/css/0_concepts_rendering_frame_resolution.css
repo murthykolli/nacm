@@ -1,0 +1,82 @@
+/* double image display resolution css */
+.concept_rend_reso_class {
+  	width: 550px; height: 300px; object-fit: scale-down; position: relative; object-position: 50% 50%;    
+}
+
+/* single big image display resolution css */
+.concept_rend_sng_img_reso_class {
+  	width: 650px; height: 380px; object-fit: scale-down; position: relative; object-position: 50% 50%;    
+}
+	
+/* .cont_frame_reso {
+  	width: 100%; background-size: 140%; background-position: center; background-repeat: no-repeat; border: 1px dotted #999; 
+} */
+
+
+/* view Products image resolution css */
+.cr_frame_viw_prod_reso_cl {
+  	/* width: 100%; background-size: 140%; background-position: center; background-repeat: no-repeat; */
+  	width: 550px; height: 300px; object-fit: scale-down; position: relative; object-position: 50% 50%;    
+}
+	
+.concept_rend_reso_div_class {
+  	width: 550px; height: 300px; object-fit: scale-down; position: relative; object-position: 50% 50%; overflow: auto; overflow-y: hidden;
+}
+
+/* designer profile image resolution css */
+.desn_pro_img_reso_dsp_class {
+  	width: 170px; height: 170px; object-fit: scale-down; position: relative; object-position: 50% 50%;    
+}
+
+
+/* view Products small designer image resolution css */
+.dn_frame_viw_prod_img_cls {
+  	width: 100%; height: 100%; background-size: 140%; background-position: center; background-repeat: no-repeat;   
+}
+	
+.dsn_prod_img_reso_div_cls {
+  	width: 160px; height: 124px; object-fit: scale-down; position: relative; object-position: 50% 50%; overflow: auto; overflow-y: hidden;
+}
+
+/* view Products Big designer image resolution css */
+.dn_frame_viw_prod_big_img_cls {
+  	width: 100%; height: 100%; background-size: 140%; background-position: center; background-repeat: no-repeat;   
+}
+	
+.dsn_prod_bigimg_reso_div_cls {
+  	width: 340px; min-height: 300px; object-fit: scale-down; position: relative; object-position: 50% 50%; overflow: auto; overflow-y: hidden;
+}
+.all_dsn_prod_bigimg_reso_div_cls {
+  	width: 280px; min-height: 280px; object-fit: scale-down; position: relative; object-position: 50% 50%; overflow: auto; overflow-y: hidden;
+}
+
+/* view Add Cart Products image resolution css */
+.cl_add_cart_prod_img_cls {
+  	width: 100%; height: 100%; background-size: 140%; background-position: center; background-repeat: no-repeat;   
+}
+	
+.cl_add_cart_prod_img_div_cls {
+  	width: 130px; min-height: 60px; object-fit: scale-down; position: relative; object-position: 50% 50%; overflow: auto; overflow-y: hidden;
+}
+
+
+/* Room small image resolution css */
+.room_sml_prod_img_dsp_cls {
+  	width: 100%; height: 100%; background-size: 140%; background-position: center; background-repeat: no-repeat; border: 1px solid gray;  
+}
+	
+.room_sml_prod_img_dsp_div_cls {
+  	width: 80px; min-height: 20px; object-fit: scale-down; position: relative; object-position: 50% 50%; overflow: auto; overflow-y: hidden; overflow-x: hidden; border: 1px solid gray;
+}
+
+/* Room small image resolution css */
+.cl_add_cart_prod_img_disy_div_res {
+  	width: 130px; min-height: 60px; object-fit: scale-down; position: relative; object-position: 50% 50%; overflow: auto; overflow-y: hidden;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+@font-face { font-family: 'Allura-Regular'; src: url('resources/sitefonts/Allura-Regular.ttf') format('truetype'); }
+	.referral_login_hd_text_dis { font: 2.75em/1.25em Allura-Regular; letter-spacing: 0px; color: black; text-transform: capitalize; }
+	.referral_left_text_frame { background-color: #f2f2f2; box-shadow: 3px 3px 5px #999999; min-height: 300px; margin: 0px; padding: 15px; }
+	.referral_login_hdsub_text_dsp { font: 1.2em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.ref_login_hdsub_fl_text_dsp { font: 1.25em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.referral_login_small_text_dsp { font: 1.1em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.referral_signup_sub_buttn { display: block; margin: 0px auto; vertical-align: middle; background-color: red; color: white; display: inline-block; text-transform: uppercase; outline: none; border: none; font: normal 1.05em/1.25em Georgia; padding: 9px 20px; width: 200px; letter-spacing: 2px; box-shadow: 2px 2px 3px #999999; margin-bottom: 25px; }
+	.referral_signup_sub_buttn:hover { background-color: #595959; }
+	a.referral_lm_text_dsp { font-style: italic; letter-spacing: 1px; color: #1f4e79; text-decoration: underline; }
+	a.referral_lm_text_dsp:hover { color: red; }
+	
+	.referral_right_login_frame { background-color: #FFFFFF; border: 2px solid #D3D3D3; min-height: 200px; margin: 0px; padding: 20px; padding-bottom: 40px; }
+	.referral_login_hd_nl_dsp { font: 1.05em/1.25em Georgia; letter-spacing: 2px; color: black; }
+	.referral_login_hd_fl_dsp { font: 1.25em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.referral_signin_sub_buttn { display: block; margin: 0px auto; vertical-align: middle; background-color: #1f4e79; color: white; display: inline-block; text-transform: uppercase; outline: none; border: none; font: normal 1.05em/1.25em Georgia; padding: 9px 10px; width: 200px; letter-spacing: 2px; box-shadow: 2px 2px 3px #999999; }
+	.referral_signin_sub_buttn:hover { background-color: #595959; }
+	.referral_forgot_login_frame { background-color: #FFFFFF; border: 2px solid #D3D3D3; min-height: 200px; padding: 40px 15px; }
+	
+	.referral_sec_pin_login_frame { background-color: #FFFFFF; border: 2px solid #D3D3D3; min-height: 200px; padding: 45px 15px;  }
+	.reff_sec_pin_input_box_disp { background-color: white; border: 2px solid #696969; width: 100%; padding: 5px 15px; height: 38px; margin-top: 20px; letter-spacing: 1px; color: black; font: 1.15em/1.25em Georgia; max-width: 100%; outline: none; }
+	.referral_add_text_dsp { font: italic 1.18em/1.2em Georgia; text-align: left; letter-spacing: 0px; color: black; }
+	
+	.ref_htrpw_hd_fl_text { font: 1.48em/1.25em Georgia; letter-spacing: 2px; color: black; }
+	.ref_htrpw_hd_nl_text { font: 1.1em/1.25em Georgia; letter-spacing: 2px; color: black; }	
+	.ref_htrpw_left_down_bline { border-left: 1px solid black; height: 140px; padding: 15px 12px; }
+	.ref_htrpw_left_bline_hd_text { font: bold 1.08em/1.25em Georgia; letter-spacing: 1px; color: #002060; margin-bottom: 10px; }
+	.ref_htrpw_left_bline_sub_hd_text { font: bold 0.9em/1.25em Georgia; letter-spacing: 1px; color: #002060; }
+	.ref_htrpw_left_bline_sml_text { font: 1.1em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.ref_htrpw_sml_bott_text { font: 1.12em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.ref_htrpw_itsml_bott_text { font: italic 1.0em/1.25em Georgia; letter-spacing: 1px; color: black; }
+	.ref_htrpw_signup_sub_buttn { display: block; margin: 0px auto; vertical-align: middle; background-color: red; color: white; display: inline-block; text-transform: uppercase; outline: none; border: none; font: normal 1.05em/1.25em Georgia; padding: 9px 20px; width: 230px; letter-spacing: 2px; box-shadow: 2px 2px 3px #999999; }
+	.ref_htrpw_signup_sub_buttn:hover { background-color: #595959; }
+	
+	.reff_txt_field_disp{ font: 0.95em/1.25em Georgia; text-align: left; letter-spacing: 2px; color: black; text-transform: uppercase; padding-top: 17px; padding-left: 5px; }
+	.reff_input_box_disp { background-color: white; border: 2px solid #696969; width: 100%; padding: 5px 15px; height: 38px; margin-top: 7px; letter-spacing: 1px; color: black; font: 1.15em/1.25em Georgia; max-width: 100%; outline: none; }
+	.reff_input_select_box_disp { background-color: white; border: 2px solid #696969; width: 100%; padding: 5px 15px; height: 40px; margin-top: 7px; letter-spacing: 0px; color: black; font: 1.1em/1.25em Georgia; max-width: 100%; outline: none; }
+	.text_frame_adj_cl { position: relative; left: 20px; }
+	.table_width_dsp { width: 300px; }
+	.table_big_width_dsp { width: 300px; }
+	.service_item_align { margin-bottom: 0px; }
+	
+	.reff_txt_field_disp{ font: 0.95em/1.25em Georgia; text-align: left; letter-spacing: 2px; color: black; text-transform: uppercase; padding-top: 17px; padding-left: 5px; }
+	.text_frame_adj_cl { position: relative; left: 20px; }
+	.table_width_dsp { width: 300px; }
+	.table_big_width_dsp { width: 300px; }
+	
+	.reff_success_page_text_hd { font: italic 1.20em/1.25em Georgia; text-align: left; letter-spacing: 1px; color: black; }
+	.reff_success_page_right_text_hd { font: italic 1.20em/1.25em Georgia; text-align: left; letter-spacing: 1px; color: black; }
+	.reff_success_page_adj_hd { height: 284px; display: table-cell; vertical-align: middle; padding-left: 10px; }
+	.reff_success_page_bar_hd { border-left: 1px solid black; padding: 10px; }
